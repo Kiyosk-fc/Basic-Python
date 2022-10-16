@@ -4,10 +4,10 @@ while op != "?":
     b = int(b)
     if op == "+":
         print(a+b)
-    if op == "-":
+    elif op == "-":
         print(a-b)
-    if op == "*":
+    elif op == "*":
         print(a*b)
-    if op == "/":
+    else:
         print(a//b)
     a, op, b = input().split()
